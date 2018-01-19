@@ -1,0 +1,8 @@
+rootProject.name = 'microservice-playground-spring-cloud'
+
+include 'auth-service'
+include 'config-service'
+include 'discovery-service'
+include 'edge-service'
+include 'hystrix-dashboard'
+include 'sample-service'
