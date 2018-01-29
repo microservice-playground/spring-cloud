@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: sample-java-service
+server:
+  port: 8890
+
+---
+
+spring:
+  profiles: default
+  cloud:
+    config:
+      uri: http://localhost:8880
